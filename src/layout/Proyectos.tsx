@@ -26,7 +26,7 @@ function Proyectos() {
         <h1>Mis Proyectos</h1>
       </div>
       <CardProyect
-        key={10000}
+        id={10}
         title="Spotruck"
         image="Spotruck.jpg"
         descript="Spotruck fue mi proyecto de tesis para egresarme, es una aplicación de publicación y licitación de logística que
