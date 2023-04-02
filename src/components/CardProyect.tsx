@@ -6,7 +6,7 @@ import { CiShare1 } from "react-icons/ci";
 import Link from "next/link";
 
 interface Props {
-  key: number;
+  id: number;
   image: String;
   title: String;
   descript: String;
@@ -14,7 +14,7 @@ interface Props {
   tecnologias: [String?, String?, String?, String?, String?];
 }
 function CardProyect({
-  key,
+  id,
   image,
   title,
   descript,
@@ -24,7 +24,7 @@ function CardProyect({
   return (
     <>
       <div
-        key={key}
+        key={id}
         className=" flex flex-col lg:flex-row pl-[5%]   z-10 pr-[5%] mt-[5%] pt-[3%] rounded-xl  dark:bg-stone-800 bg-gray-200 font-mono  "
       >
         <div className="  dark:text-white text-black absolute lg:static md:max-lg:mr-[10%]">
@@ -46,7 +46,7 @@ function CardProyect({
           </div>
         </div>
         <div className=" flex items-center  justify-center top-0 relative  opacity-20 lg:static lg:opacity-100 ">
-          <Image className=" max-w-xs  max-h-xs   " src={`/${image}`} alt="" />
+          <img className=" max-w-xs  max-h-xs   " src={`/${image}`} alt="" />
         </div>
       </div>
     </>

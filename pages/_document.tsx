@@ -1,6 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 import { useContext } from 'react';
-import { ModeContext } from './context/ModeContext';
+import { ModeContext } from '../src/context/ModeContext';
 
 export default function Document() {
  

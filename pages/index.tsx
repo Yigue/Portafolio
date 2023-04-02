@@ -1,11 +1,11 @@
 
 
-import Skills from "./layout/skills";
-import AboutMe from "./layout/AboutMe";
-import Banner from "./layout/Banner";
-import Proyectos from "./layout/Proyectos";
-import Conctact from "./layout/Conctact";
-import NavBar from "./layout/NavBar";
+import Skills from "../src/layout/skills";
+import AboutMe from "../src/layout/AboutMe";
+import Banner from "../src/layout/Banner";
+import Proyectos from "../src/layout/Proyectos";
+import Conctact from "../src/layout/Conctact";
+import NavBar from "../src/layout/NavBar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
