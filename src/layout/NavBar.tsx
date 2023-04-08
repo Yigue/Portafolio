@@ -63,7 +63,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className="navIcons absolute   space-x-7 right-0 mt-2 mr-3">
+      <div className="navIcons absolute    space-x-7 right-0 mt-2 mr-3">
         {/* <div className="mborder  border transform py-[13px] absolute z-[-1] mt-[6px] border-black dark:hidden"></div> */}
         <div
           className={`ICONOMENU hammoblie flex 
@@ -92,7 +92,7 @@ const Navbar = () => {
 
         <div
           className={` MENUU md:hidden
-            absolute z-20  l-0 top-[50px]  overflow-x-hidden left-0 h-screen dark:bg-stone-900 bg-white  ${
+            absolute z-20  l-0 top-[50px] overflow-x-hidden left-0 h-[100rem] dark:bg-stone-900 bg-white  ${
               !isOpen
                 ? "ease-in-out"
                 : "-translate-x-[260px] duration-[200ms]  ease-in w-screen drop-shadow-sm/2 dark:bg-stone-900 bg-white "
