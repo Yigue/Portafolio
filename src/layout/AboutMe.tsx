@@ -2,24 +2,16 @@ import React from 'react'
 import Image from "next/image";
 import profileJpg from "../../public/perfil.jpg";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import { useEffect } from "react";
 
 function AboutMe() {
- useEffect(() => {
-   AOS.init({
-     duration: 1000, 
-     easing: "ease", 
-     once: true, 
-     mirror: false, 
-   });
- }, []);
+
 
   return (
     <div
       id="SobreMi"
-      data-aos="fade-right"
+      
       className=" flex flex-col  shadow-2xl shadow-inherit "
     >
       <div className="w-full flex flex-row  text-4xl ">

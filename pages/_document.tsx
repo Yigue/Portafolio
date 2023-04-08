@@ -5,7 +5,7 @@ export default function Document() {
  
 
   return (
-    <Html lang="es" className=" ">
+    <Html lang="es" >
       <Head />
       <body>
         <Main />

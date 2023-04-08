@@ -1,7 +1,5 @@
 import { Tab } from "@headlessui/react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
+
 import {
   SiTypescript,
   SiTailwindcss,
@@ -23,18 +21,11 @@ import { DiCss3, DiReact, DiGit, DiNodejsSmall } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 
 export default function Skills() {
-   useEffect(() => {
-     AOS.init({
-       duration: 1000,
-       easing: "ease",
-       once: true,
-       mirror: false,
-     });
-   }, []);
+
   return (
     <div
       id="MisHabilidades"
-      data-aos="fade-left"
+      
       className=" flex  flex-col mt-24  font-mono "
     >
       <div className=" flex flex-row  text-4xl ">

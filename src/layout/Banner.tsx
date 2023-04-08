@@ -4,6 +4,7 @@ import Image from "next/image";
 import Iconhtml from "../../public/html.svg";
 import Typewriter from "typewriter-effect";
 
+
 import {
   solid,
   regular,

@@ -1,24 +1,18 @@
 import { Card } from '@mui/material';
 import CardProyect from '../components/CardProyect';
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import { useEffect } from "react";
 
 function Proyectos() {
  const tecSpotruck=["PHP","HTML","CSS","Materialize","JavaScript"]
  useEffect(() => {
-   AOS.init({
-     duration: 1000,
-     easing: "ease",
-     once: true,
-     mirror: false,
-   });
+
  }, []);
 
   return (
     <div
       id="Proyectos"
-      data-aos="fade-right"
+   
       className="mt-[20%] mb-[20%] flex flex-col"
     >
       <div className="w-full flex flex-row  text-4xl ">

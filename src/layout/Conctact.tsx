@@ -1,21 +1,12 @@
 
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import { useEffect } from "react";
 
 function Conctact() {
- useEffect(() => {
-   AOS.init({
-     duration: 1000,
-     easing: "ease",
-     once: true,
-     mirror: false,
-   });
- }, []);
 
   return (
     <div
-      data-aos="fade-left"
+      
       className="py-10 px-4 md:px-0 text-center  md:mt-10 "
       id="Contactame"
     >

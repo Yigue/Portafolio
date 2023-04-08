@@ -1,6 +1,6 @@
 
 import React from "react";
-import "animate.css"
+
 import Image from "next/image";
 import { useState, useCallback, useEffect, useContext } from "react";
 import { ModeContext } from "../context/ModeContext";
