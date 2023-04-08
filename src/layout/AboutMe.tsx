@@ -39,7 +39,7 @@ function AboutMe() {
           TypeScript. Tengo muchas facilidad y ganas de seguir ampliando mis
           conocimientos
         </div>
-        <div className="mx-auto w-80 h-70 pt-10 md:pt-0 md:w-[200rem] md:pr-[5%]  md:pl-[5%]">
+        <div className="mx-auto w-80 h-70 pt-10 md:pt-0  md:max-lg:w-[30rem] lg:w-[200rem] md:pr-[5%]  md:pl-[5%]">
           <Image className="  rounded-xl " src={profileJpg} alt="perfil" />
         </div>
       </div>
