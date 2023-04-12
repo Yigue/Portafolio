@@ -21,7 +21,7 @@ import Link from 'next/link';
 
 function Banner() {
   return (
-    <section className="min-h-screen pt-[25vh] lg:pt-[30vh]">
+    <section className="max-h-screen pt-[25vh] lg:pt-[30vh]">
       <div className="flex flex-col justify-center p-auto m-auto">
         <h1 className="text-lg animate__animated animate__fadeIn animate__delay-1s ">
           Hola,Mi nombre es
