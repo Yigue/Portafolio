@@ -33,7 +33,7 @@ const Navbar = () => {
   }, [escFunction]);
 
   return (
-    <header className=" animate__animated animate__bounce animate__fadeInDown    fixed top-0 flex z-20 flex-row w-full bg-white  shadow-gray-200 dark:shadow-stone-900 shadow-md dark:selection:text-stone-800 dark:text-white text-black dark:bg-stone-900 ">
+    <header className=" animate__animated animate__bounce animate__fadeInDown    fixed top-0 flex z-20 flex-row w-[100vw] bg-white  shadow-gray-200 dark:shadow-stone-900 shadow-md dark:selection:text-stone-800 dark:text-white text-black dark:bg-stone-900 ">
       <div className="flex img cursor-pointer px-1 py-1">
         <Image
           src={`/${mode ? "Rw.png" : "r.png"}`}

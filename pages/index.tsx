@@ -8,23 +8,23 @@ import SlideIn from "../src/components/SlideIn";
 
 function Home() {
   return (
-    <section className=" max-sm:flex  max-sm:h-full max-sm:w-full  ">
+    <section className=" max-sm:flex  max-sm:h-[100vh]  max-sm:w-[100vw]  ">
       <NavBar></NavBar>
 
       <main className="  bg-white dark:bg-neutral-900  text-black   dark:text-stone-300  font-mono px-[5%]  md:px-[13%]  2xl:px-[20%] ">
-        <SlideIn direction="left" >
+        <SlideIn direction="left">
           <Banner></Banner>
         </SlideIn>
-        <SlideIn direction="right" >
+        <SlideIn direction="right">
           <AboutMe></AboutMe>
         </SlideIn>
-        <SlideIn direction="left" >
+        <SlideIn direction="left">
           <Skills></Skills>
         </SlideIn>
-        <SlideIn direction="right" >
+        <SlideIn direction="right">
           <Proyectos></Proyectos>
         </SlideIn>
-        <SlideIn direction="right" >
+        <SlideIn direction="right">
           <Conctact></Conctact>
         </SlideIn>
       </main>
